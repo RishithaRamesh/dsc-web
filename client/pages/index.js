@@ -128,21 +128,12 @@ export default function Home() {
           development side by churning out high quality projects.
         </p>
         <Link href="/projects">
-          <div data-aos="fade-up" className="button-maker">
-            <div className="button-text">Meet The Rish</div>
-          </div>
-        </Link>
         <div data-aos="fade-up" className="buttons">
-          <a
-            href="https://github.com/dsc-jssstu"
-            target="_blank"
-            rel="noopener"
-          >
             <div className="button-maker" id="projects-button">
               <div className="button-text">Projects</div>
             </div>
-          </a>
         </div>
+        </Link>
       </div>
       <div className="container-main holded-container" id="blog">
         <h1 data-aos="fade-up" className=" text-center">

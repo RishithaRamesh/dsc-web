@@ -88,7 +88,13 @@ export default function Nav({ page, headerRef, logoLightRef, logoRef }) {
             <Link href="/events">Events</Link>
           </h2>
           <h2 className="text-center" onClick={onMenuClose}>
-            <Link href="/projects">Projects</Link>
+            {page == "home" ? (
+              <Link href="#updates">Projects</Link>
+            ) : (
+                <>
+                  <Link href="/projects">Projects</Link>
+                </>
+              )}
           </h2>
           <h2 className="text-center" onClick={onMenuClose}>
             <Link href="/resources">Resources</Link>

@@ -80,7 +80,6 @@ export default function Layout({
         {/* <!--     Links to css files     --> */}
         <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="css/svg.css" />
-        <link rel="stylesheet" href="css/projects.css" />
       </Head>
 
       <div className="success-message" id="success-message" />
